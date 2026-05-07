@@ -57,44 +57,23 @@ export default function Page() {
 
         <section className="tiktok" aria-label="MILICUTE TikTok videos">
           <div className="tiktok-grid">
-            <article className="tiktok-card">
-              <div className="tiktok-frame">
-                <iframe
-                  src="https://www.tiktok.com/embed/v2/7608502441935490324?background=transparent"
-                  title="MILICUTE TikTok 7608502441935490324"
-                  loading="lazy"
-                  allow="encrypted-media; fullscreen"
-                  scrolling="no"
-                  allowFullScreen
-                ></iframe>
-              </div>
-            </article>
+            <a className="tiktok-preview" href="https://www.tiktok.com/@milicuteofficial/video/7608502441935490324" target="_blank" rel="noopener noreferrer">
+              <span className="tiktok-mark">TikTok</span>
+              <span className="tiktok-play">▶</span>
+              <span className="tiktok-copy">Watch MILICUTE clip</span>
+            </a>
 
-            <article className="tiktok-card">
-              <div className="tiktok-frame">
-                <iframe
-                  src="https://www.tiktok.com/embed/v2/7614323871549869333?background=transparent"
-                  title="MILICUTE TikTok 7614323871549869333"
-                  loading="lazy"
-                  allow="encrypted-media; fullscreen"
-                  scrolling="no"
-                  allowFullScreen
-                ></iframe>
-              </div>
-            </article>
+            <a className="tiktok-preview" href="https://www.tiktok.com/@milicuteofficial/video/7614323871549869333" target="_blank" rel="noopener noreferrer">
+              <span className="tiktok-mark">TikTok</span>
+              <span className="tiktok-play">▶</span>
+              <span className="tiktok-copy">Watch MILICUTE clip</span>
+            </a>
 
-            <article className="tiktok-card">
-              <div className="tiktok-frame">
-                <iframe
-                  src="https://www.tiktok.com/embed/v2/7615864179416780052?background=transparent"
-                  title="MILICUTE TikTok 7615864179416780052"
-                  loading="lazy"
-                  allow="encrypted-media; fullscreen"
-                  scrolling="no"
-                  allowFullScreen
-                ></iframe>
-              </div>
-            </article>
+            <a className="tiktok-preview" href="https://www.tiktok.com/@milicuteofficial/video/7615864179416780052" target="_blank" rel="noopener noreferrer">
+              <span className="tiktok-mark">TikTok</span>
+              <span className="tiktok-play">▶</span>
+              <span className="tiktok-copy">Watch MILICUTE clip</span>
+            </a>
           </div>
         </section>
 
