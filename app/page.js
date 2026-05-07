@@ -21,28 +21,28 @@ export default function Page() {
             <div className="action-title">Join Discord</div>
             <div className="action-desc">Masuk server utama MILICUTE buat ngobrol, update, dan event komunitas.</div>
             <div className="action-link">Open Discord</div>
-            <img className="action-logo" src="/logoMili.png" alt="MILICUTE logo" />
+            <img className="action-logo" src="/mili_emblem_png.png" alt="MILICUTE logo" />
           </a>
 
           <a className="action-card" href="https://www.roblox.com/share/g/858803229" target="_blank" rel="noopener noreferrer">
             <div className="action-title">Join Community Roblox</div>
             <div className="action-desc">Gabung group Roblox resmi untuk aktivitas game dan circle member.</div>
             <div className="action-link">Open Roblox Group</div>
-            <img className="action-logo" src="/logoMili.png" alt="MILICUTE logo" />
+            <img className="action-logo" src="/mili_emblem_png.png" alt="MILICUTE logo" />
           </a>
 
           <a className="action-card" href="https://saweria.co/milicuteofficial" target="_blank" rel="noopener noreferrer">
             <div className="action-title">Support on Saweria</div>
             <div className="action-desc">Dukung perkembangan komunitas dan project MILICUTE lewat Saweria.</div>
             <div className="action-link">Open Saweria</div>
-            <img className="action-logo" src="/logoMili.png" alt="MILICUTE logo" />
+            <img className="action-logo" src="/mili_emblem_png.png" alt="MILICUTE logo" />
           </a>
 
           <a className="action-card" href="https://discord.com/users/1426195958688911474" target="_blank" rel="noopener noreferrer">
             <div className="action-title">Contact Us</div>
             <div className="action-desc">Hubungi admin MILICUTE lewat Discord untuk add friend dan info komunitas.</div>
             <div className="action-link">Open Discord Profile</div>
-            <img className="action-logo" src="/logoMili.png" alt="MILICUTE logo" />
+            <img className="action-logo" src="/mili_emblem_png.png" alt="MILICUTE logo" />
           </a>
         </section>
 
@@ -57,23 +57,44 @@ export default function Page() {
 
         <section className="tiktok" aria-label="MILICUTE TikTok videos">
           <div className="tiktok-grid">
-            <a className="tiktok-preview" href="https://www.tiktok.com/@milicuteofficial/video/7608502441935490324" target="_blank" rel="noopener noreferrer">
-              <span className="tiktok-mark">TikTok</span>
-              <span className="tiktok-play">▶</span>
-              <span className="tiktok-copy">Watch MILICUTE clip</span>
-            </a>
+            <article className="tiktok-card">
+              <div className="tiktok-frame">
+                <iframe
+                  src="https://www.tiktok.com/embed/v2/7608502441935490324?background=transparent"
+                  title="MILICUTE TikTok 7608502441935490324"
+                  loading="lazy"
+                  allow="encrypted-media; fullscreen"
+                  scrolling="no"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </article>
 
-            <a className="tiktok-preview" href="https://www.tiktok.com/@milicuteofficial/video/7614323871549869333" target="_blank" rel="noopener noreferrer">
-              <span className="tiktok-mark">TikTok</span>
-              <span className="tiktok-play">▶</span>
-              <span className="tiktok-copy">Watch MILICUTE clip</span>
-            </a>
+            <article className="tiktok-card">
+              <div className="tiktok-frame">
+                <iframe
+                  src="https://www.tiktok.com/embed/v2/7614323871549869333?background=transparent"
+                  title="MILICUTE TikTok 7614323871549869333"
+                  loading="lazy"
+                  allow="encrypted-media; fullscreen"
+                  scrolling="no"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </article>
 
-            <a className="tiktok-preview" href="https://www.tiktok.com/@milicuteofficial/video/7615864179416780052" target="_blank" rel="noopener noreferrer">
-              <span className="tiktok-mark">TikTok</span>
-              <span className="tiktok-play">▶</span>
-              <span className="tiktok-copy">Watch MILICUTE clip</span>
-            </a>
+            <article className="tiktok-card">
+              <div className="tiktok-frame">
+                <iframe
+                  src="https://www.tiktok.com/embed/v2/7615864179416780052?background=transparent"
+                  title="MILICUTE TikTok 7615864179416780052"
+                  loading="lazy"
+                  allow="encrypted-media; fullscreen"
+                  scrolling="no"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </article>
           </div>
         </section>
 
