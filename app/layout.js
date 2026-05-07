@@ -2,7 +2,7 @@ import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 export const metadata = {
-  metadataBase: new URL('https://www.milicute.id'),
+  metadataBase: new URL('https://milicute.id'),
   title: 'MILICUTE — Komunitas Roblox Indonesia Resmi',
   description: 'MILICUTE adalah komunitas Roblox Indonesia dengan Discord resmi, group Roblox, highlight TikTok, gallery komunitas, dan update aktivitas member.',
   keywords: ['MILICUTE', 'MILI', 'komunitas Roblox Indonesia', 'community roblox', 'group roblox indonesia', 'Milicute Roblox', 'MILI Roblox community', 'Discord Roblox Indonesia'],
@@ -12,7 +12,7 @@ export const metadata = {
   openGraph: {
     title: 'MILICUTE — Komunitas Roblox Indonesia Resmi',
     description: 'Gabung komunitas MILICUTE untuk update Roblox, Discord resmi, TikTok highlight, dan gallery komunitas.',
-    url: 'https://www.milicute.id/',
+    url: 'https://milicute.id/',
     siteName: 'MILICUTE',
     type: 'website',
     locale: 'id_ID',

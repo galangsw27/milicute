@@ -6,8 +6,8 @@ const structuredData = {
     {
       '@type': 'Organization',
       name: 'MILICUTE',
-      url: 'https://www.milicute.id/',
-      logo: 'https://www.milicute.id/mili_emblem_png.webp',
+      url: 'https://milicute.id/',
+      logo: 'https://milicute.id/mili_emblem_png.webp',
       sameAs: [
         'https://discord.gg/gYdXg6uQ3M',
         'https://www.roblox.com/share/g/858803229',
@@ -18,7 +18,7 @@ const structuredData = {
     {
       '@type': 'WebSite',
       name: 'MILICUTE',
-      url: 'https://www.milicute.id/',
+      url: 'https://milicute.id/',
       description: 'Komunitas Roblox Indonesia resmi MILICUTE dengan Discord, group Roblox, TikTok, dan gallery komunitas.',
       inLanguage: 'id-ID',
     },

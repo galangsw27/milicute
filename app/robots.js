@@ -4,6 +4,6 @@ export default function robots() {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://www.milicute.id/sitemap.xml',
+    sitemap: 'https://milicute.id/sitemap.xml',
   }
 }
