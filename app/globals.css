@@ -62,6 +62,22 @@ body {
   box-shadow: 0 0 40px rgba(0,0,0,0.5), 0 0 36px rgba(224,16,32,0.16);
   backdrop-filter: blur(8px);
   animation: fadeUp 0.85s ease both;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url('/logoMili.png') center/340px auto no-repeat;
+  opacity: 0.14;
+  pointer-events: none;
+}
+
+.hero > * {
+  position: relative;
+  z-index: 1;
 }
 
 .badge {
