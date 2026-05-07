@@ -36,6 +36,9 @@ export const metadata = {
     shortcut: '/mili_emblem_png.webp',
     apple: '/mili_emblem_png.webp',
   },
+  verification: {
+    google: 'fhZGwXQ4B4NhFMiLZakrOGH2R1yFQnRTmRdrUiWen5g',
+  },
 }
 
 export default function RootLayout({ children }) {
