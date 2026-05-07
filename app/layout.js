@@ -8,7 +8,12 @@ export const metadata = {
   openGraph: {
     title: 'MILICUTE — Official Community Roblox',
     description: 'MILICUTE official community for Roblox, MILI squad, TikTok highlights, gallery, Discord, and Saweria support.',
-    images: ['/1.jpg'],
+    images: ['/MILI.png'],
+  },
+  icons: {
+    icon: '/mili_emblem_png.png',
+    shortcut: '/mili_emblem_png.png',
+    apple: '/mili_emblem_png.png',
   },
 }
 
