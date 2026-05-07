@@ -37,7 +37,7 @@ export default function Page() {
         </section>
 
         <section className="featured-shot" aria-label="MILICUTE featured image">
-          <img src="/assets-milicute-featured.png" alt="MILICUTE community group photo" />
+          <img src="/1.jpg" alt="MILICUTE community hero photo" />
           <div className="featured-overlay">
             <div className="featured-copy">
               <div className="featured-kicker">MILICUTE Official Presence</div>

@@ -4,64 +4,52 @@ import { useEffect, useMemo, useState } from 'react'
 
 const items = [
   {
-    title: 'Member Shot',
-    desc: 'Placeholder buat foto member official dengan vibe cute tactical.',
+    title: 'MILICUTE Photo 2',
+    desc: 'Foto komunitas MILICUTE.',
     tone: 'pink',
     cls: 'gallery-item gallery-item--wide gallery-item--hero',
     icon: '🎀',
-    meta: 'Preview',
-    label: 'Member Shot',
-    img: 'https://placehold.co/900x520/201018/ffb7c8?text=Member+Shot',
+    img: '/2.jpg',
   },
   {
-    title: 'Event Moment',
-    desc: 'Placeholder buat dokumentasi event komunitas MILICUTE.',
+    title: 'MILICUTE Photo 4',
+    desc: 'Foto komunitas MILICUTE.',
     tone: 'red',
     cls: 'gallery-item gallery-item--tall',
     icon: '🔥',
-    meta: 'Event',
-    label: 'Event Moment',
-    img: 'https://placehold.co/520x760/23080d/ff4f68?text=Event+Moment',
+    img: '/4.jpg',
   },
   {
-    title: 'Cute Tactical',
-    desc: 'Placeholder buat style board cute tactical official.',
+    title: 'MILICUTE Photo 5',
+    desc: 'Foto komunitas MILICUTE.',
     tone: 'violet',
     cls: 'gallery-item',
     icon: '⚔️',
-    meta: 'Style',
-    label: 'Cute Tactical',
-    img: 'https://placehold.co/520x420/171126/d8a6ff?text=Cute+Tactical',
+    img: '/5.jpg',
   },
   {
-    title: 'Roblox Crew',
-    desc: 'Placeholder buat screenshot dan aktivitas group Roblox.',
+    title: 'MILICUTE Photo 6',
+    desc: 'Foto komunitas MILICUTE.',
     tone: 'blue',
     cls: 'gallery-item',
     icon: '🎮',
-    meta: 'Roblox',
-    label: 'Roblox Crew',
-    img: 'https://placehold.co/520x420/101826/9dccff?text=Roblox+Crew',
+    img: '/6.jpg',
   },
   {
-    title: 'Community Art',
-    desc: 'Placeholder buat artwork, poster, dan karya member.',
+    title: 'MILICUTE Photo 7',
+    desc: 'Foto komunitas MILICUTE.',
     tone: 'gold',
     cls: 'gallery-item gallery-item--wide',
     icon: '✨',
-    meta: 'Artwork',
-    label: 'Community Art',
-    img: 'https://placehold.co/900x420/24160c/ffd18a?text=Community+Art',
+    img: '/7.jpg',
   },
   {
-    title: 'Official Drop',
-    desc: 'Placeholder buat announcement visual dan official release.',
+    title: 'MILICUTE Photo 8',
+    desc: 'Foto komunitas MILICUTE.',
     tone: 'mono',
     cls: 'gallery-item',
     icon: '◈',
-    meta: 'Drop',
-    label: 'Official Drop',
-    img: 'https://placehold.co/520x420/151515/f2f2f4?text=Official+Drop',
+    img: '/8.jpg',
   },
 ]
 
@@ -98,8 +86,6 @@ export default function GallerySection() {
             >
               <img src={item.img} alt={`${item.title} placeholder`} />
               <span className="gallery-icon">{item.icon}</span>
-              <span className="gallery-meta">{item.meta}</span>
-              <span className="gallery-label">{item.label}</span>
             </button>
           ))}
         </div>
