@@ -84,7 +84,7 @@ export default function GallerySection() {
               data-tone={item.tone}
               onClick={() => setSelected(item)}
             >
-              <img src={item.img} alt={`${item.title} placeholder`} />
+              <img src={item.img} alt={`${item.title} komunitas MILICUTE`} />
               <span className="gallery-icon">{item.icon}</span>
             </button>
           ))}

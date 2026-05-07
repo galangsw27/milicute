@@ -515,6 +515,52 @@ h1 {
   max-width: 520px;
 }
 
+.seo-block {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: linear-gradient(180deg, rgba(16,16,20,0.92), rgba(11,11,15,0.92));
+  padding: 20px;
+  animation: fadeUp 1s 0.24s ease both;
+}
+
+.seo-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: clamp(18px, 3.4vw, 28px);
+  letter-spacing: 0.8px;
+  margin-bottom: 10px;
+}
+
+.seo-copy {
+  color: var(--text-muted);
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
+
+.faq-list {
+  display: grid;
+  gap: 10px;
+}
+
+.faq-item {
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 10px;
+  padding: 12px;
+  background: rgba(0,0,0,0.2);
+}
+
+.faq-item h3 {
+  font-size: 14px;
+  color: #f0f0f6;
+  margin-bottom: 6px;
+}
+
+.faq-item p {
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
 footer {
   text-align: center;
   color: #6f6f7e;
