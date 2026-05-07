@@ -70,7 +70,7 @@ body {
   content: '';
   position: absolute;
   inset: 0;
-  background: url('/logoMili.png') center/340px auto no-repeat;
+  background: url('/MILI.png') center/340px auto no-repeat;
   opacity: 0.14;
   pointer-events: none;
 }
@@ -159,9 +159,26 @@ h1 {
 
 .action-title,
 .action-desc,
-.action-link {
+.action-link,
+.action-logo {
   position: relative;
   z-index: 2;
+}
+
+.action-logo {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  opacity: 0.34;
+  pointer-events: none;
+}
+
+.action-card {
+  padding-right: 80px;
 }
 
 .action-title {

@@ -21,18 +21,21 @@ export default function Page() {
             <div className="action-title">Join Discord</div>
             <div className="action-desc">Masuk server utama MILICUTE buat ngobrol, update, dan event komunitas.</div>
             <div className="action-link">Open Discord</div>
+            <img className="action-logo" src="/logoMili.png" alt="MILICUTE logo" />
           </a>
 
           <a className="action-card" href="https://www.roblox.com/share/g/858803229" target="_blank" rel="noopener noreferrer">
             <div className="action-title">Join Community Roblox</div>
             <div className="action-desc">Gabung group Roblox resmi untuk aktivitas game dan circle member.</div>
             <div className="action-link">Open Roblox Group</div>
+            <img className="action-logo" src="/logoMili.png" alt="MILICUTE logo" />
           </a>
 
           <a className="action-card" href="https://saweria.co/milicuteofficial" target="_blank" rel="noopener noreferrer">
             <div className="action-title">Support on Saweria</div>
             <div className="action-desc">Dukung perkembangan komunitas dan project MILICUTE lewat Saweria.</div>
             <div className="action-link">Open Saweria</div>
+            <img className="action-logo" src="/logoMili.png" alt="MILICUTE logo" />
           </a>
         </section>
 
