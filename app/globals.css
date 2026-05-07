@@ -231,29 +231,16 @@ h1 {
   border: 1px solid var(--border);
   border-radius: var(--radius);
   background: linear-gradient(180deg, rgba(16,16,20,0.92), rgba(11,11,15,0.92));
-  padding: 24px;
+  padding: 20px 0;
+  overflow: hidden;
   animation: fadeUp 0.98s 0.2s ease both;
-}
-
-.tiktok-head { margin-bottom: 16px; }
-
-.tiktok-title {
-  font-family: 'Orbitron', sans-serif;
-  font-size: clamp(20px, 4vw, 30px);
-  letter-spacing: 1px;
-  margin-bottom: 6px;
-}
-
-.tiktok-sub {
-  color: var(--text-muted);
-  font-size: 13px;
-  line-height: 1.6;
 }
 
 .tiktok-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 12px;
+  padding: 0 20px;
 }
 
 .tiktok-card {
@@ -269,6 +256,7 @@ h1 {
   height: 100%;
   min-height: 580px;
   border: 0;
+  overflow: hidden;
 }
 
 .gallery {

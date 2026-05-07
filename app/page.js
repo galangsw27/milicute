@@ -48,11 +48,6 @@ export default function Page() {
         </section>
 
         <section className="tiktok" aria-label="MILICUTE TikTok videos">
-          <div className="tiktok-head">
-            <h2 className="tiktok-title">TikTok Highlights</h2>
-            <p className="tiktok-sub">Video terbaru dari MILICUTE official.</p>
-          </div>
-
           <div className="tiktok-grid">
             <article className="tiktok-card">
               <iframe
@@ -60,6 +55,7 @@ export default function Page() {
                 title="MILICUTE TikTok 7608502441935490324"
                 loading="lazy"
                 allow="encrypted-media; fullscreen"
+                scrolling="no"
                 allowFullScreen
               ></iframe>
             </article>
@@ -70,6 +66,7 @@ export default function Page() {
                 title="MILICUTE TikTok 7614323871549869333"
                 loading="lazy"
                 allow="encrypted-media; fullscreen"
+                scrolling="no"
                 allowFullScreen
               ></iframe>
             </article>
@@ -80,6 +77,7 @@ export default function Page() {
                 title="MILICUTE TikTok 7614323871549869333 duplicate"
                 loading="lazy"
                 allow="encrypted-media; fullscreen"
+                scrolling="no"
                 allowFullScreen
               ></iframe>
             </article>
