@@ -96,6 +96,7 @@ export default function GallerySection() {
           <button className="lightbox-close" type="button" aria-label="Close gallery preview" onClick={() => setSelected(null)}>
             ×
           </button>
+          {selected ? <img className="lightbox-image" src={selected.img} alt={selected.title} /> : null}
           <div className="lightbox-tag">Official Gallery Preview</div>
           <h2 className="lightbox-title" id="lightboxTitle">{selected?.title ?? 'Gallery Item'}</h2>
           <p className="lightbox-desc" id="lightboxDesc">{selected?.desc ?? 'Preview placeholder.'}</p>

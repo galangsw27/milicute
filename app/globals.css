@@ -380,7 +380,7 @@ h1 {
 .gallery-lightbox.open { display: flex; }
 
 .lightbox-card {
-  width: min(720px, 100%);
+  width: min(820px, 100%);
   min-height: 260px;
   border: 1px solid var(--border-red);
   border-radius: var(--radius);
@@ -389,9 +389,19 @@ h1 {
   padding: 22px;
   display: flex;
   flex-direction: column;
+  gap: 14px;
   justify-content: flex-end;
   position: relative;
   animation: fadeUp 0.22s ease both;
+}
+
+.lightbox-image {
+  width: 100%;
+  max-height: 60vh;
+  object-fit: contain;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(0,0,0,0.28);
 }
 
 .lightbox-close {
