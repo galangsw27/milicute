@@ -40,9 +40,7 @@ export default function Page() {
           <img src="/1.jpg" alt="MILICUTE community hero photo" />
           <div className="featured-overlay">
             <div className="featured-copy">
-              <div className="featured-kicker">MILICUTE Official Presence</div>
-              <h2 className="featured-title">Circle kecil. Vibe kuat. Community nyata.</h2>
-              <p className="featured-desc">Foto ini jadi pembuka sebelum gallery — nunjukin energy member, identitas komunitas, dan suasana official MILICUTE.</p>
+              <div className="featured-kicker">MINI SQUAD BUT WE DOMINATED</div>
             </div>
           </div>
         </section>
@@ -51,7 +49,7 @@ export default function Page() {
           <div className="tiktok-grid">
             <article className="tiktok-card">
               <iframe
-                src="https://www.tiktok.com/embed/v2/7608502441935490324"
+                src="https://www.tiktok.com/embed/v2/7608502441935490324?background=transparent"
                 title="MILICUTE TikTok 7608502441935490324"
                 loading="lazy"
                 allow="encrypted-media; fullscreen"
@@ -62,7 +60,7 @@ export default function Page() {
 
             <article className="tiktok-card">
               <iframe
-                src="https://www.tiktok.com/embed/v2/7614323871549869333"
+                src="https://www.tiktok.com/embed/v2/7614323871549869333?background=transparent"
                 title="MILICUTE TikTok 7614323871549869333"
                 loading="lazy"
                 allow="encrypted-media; fullscreen"
@@ -73,7 +71,7 @@ export default function Page() {
 
             <article className="tiktok-card">
               <iframe
-                src="https://www.tiktok.com/embed/v2/7615864179416780052"
+                src="https://www.tiktok.com/embed/v2/7615864179416780052?background=transparent"
                 title="MILICUTE TikTok 7614323871549869333 duplicate"
                 loading="lazy"
                 allow="encrypted-media; fullscreen"
