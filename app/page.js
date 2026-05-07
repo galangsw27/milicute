@@ -12,7 +12,7 @@ export default function Page() {
           <h1>MILICUTE</h1>
           <p className="tagline">Sweet. Small. Specialized.</p>
           <p className="about">
-            MILICUTE komunitas kecil dengan identitas cute tactical, fokus ke circle solid, interaksi positif, dan ruang nyaman buat member berkembang bareng. Halaman ini jadi pintu resmi sebelum nanti berkembang ke official gallery.
+            Milicute adalah sebuah konsep kreatif yang menggabungkan ide ‘military’ (militer) dan ‘cute’ (imut), membentuk gaya karakter atau dunia unik di mana elemen taktis dan peran ala tentara dipadukan dengan estetika yang lucu, ceria, dan menggemaskan. Dalam konsep Milicute, karakter-karakternya sering terlihat kecil, imut, dan ramah, tetapi mereka beroperasi seperti pasukan atau tim yang disiplin dengan misi, markas, dan aksi strategis layaknya unit militer. Kontras antara visual yang lembut dan menggemaskan dengan perilaku yang terstruktur dan berorientasi pada misi menciptakan identitas khas yang menarik sekaligus mudah diingat secara visual
           </p>
         </section>
 
@@ -44,6 +44,45 @@ export default function Page() {
               <h2 className="featured-title">Circle kecil. Vibe kuat. Community nyata.</h2>
               <p className="featured-desc">Foto ini jadi pembuka sebelum gallery — nunjukin energy member, identitas komunitas, dan suasana official MILICUTE.</p>
             </div>
+          </div>
+        </section>
+
+        <section className="tiktok" aria-label="MILICUTE TikTok videos">
+          <div className="tiktok-head">
+            <h2 className="tiktok-title">TikTok Highlights</h2>
+            <p className="tiktok-sub">Video terbaru dari MILICUTE official.</p>
+          </div>
+
+          <div className="tiktok-grid">
+            <article className="tiktok-card">
+              <iframe
+                src="https://www.tiktok.com/embed/v2/7608502441935490324"
+                title="MILICUTE TikTok 7608502441935490324"
+                loading="lazy"
+                allow="encrypted-media; fullscreen"
+                allowFullScreen
+              ></iframe>
+            </article>
+
+            <article className="tiktok-card">
+              <iframe
+                src="https://www.tiktok.com/embed/v2/7614323871549869333"
+                title="MILICUTE TikTok 7614323871549869333"
+                loading="lazy"
+                allow="encrypted-media; fullscreen"
+                allowFullScreen
+              ></iframe>
+            </article>
+
+            <article className="tiktok-card">
+              <iframe
+                src="https://www.tiktok.com/embed/v2/7614323871549869333"
+                title="MILICUTE TikTok 7614323871549869333 duplicate"
+                loading="lazy"
+                allow="encrypted-media; fullscreen"
+                allowFullScreen
+              ></iframe>
+            </article>
           </div>
         </section>
 
