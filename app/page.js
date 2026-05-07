@@ -73,7 +73,7 @@ export default function Page() {
 
             <article className="tiktok-card">
               <iframe
-                src="https://www.tiktok.com/embed/v2/7614323871549869333"
+                src="https://www.tiktok.com/embed/v2/7615864179416780052"
                 title="MILICUTE TikTok 7614323871549869333 duplicate"
                 loading="lazy"
                 allow="encrypted-media; fullscreen"
