@@ -70,7 +70,7 @@ body {
   content: '';
   position: absolute;
   inset: 0;
-  background: url('/MILI.png') center/340px auto no-repeat;
+  background: url('/MILI.png') center/cover no-repeat;
   opacity: 0.14;
   pointer-events: none;
 }
