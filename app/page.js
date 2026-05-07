@@ -37,6 +37,13 @@ export default function Page() {
             <div className="action-link">Open Saweria</div>
             <img className="action-logo" src="/logoMili.png" alt="MILICUTE logo" />
           </a>
+
+          <a className="action-card" href="https://discord.com/users/1426195958688911474" target="_blank" rel="noopener noreferrer">
+            <div className="action-title">Contact Us</div>
+            <div className="action-desc">Hubungi admin MILICUTE lewat Discord untuk add friend dan info komunitas.</div>
+            <div className="action-link">Open Discord Profile</div>
+            <img className="action-logo" src="/logoMili.png" alt="MILICUTE logo" />
+          </a>
         </section>
 
         <section className="featured-shot" aria-label="MILICUTE featured image">
@@ -51,36 +58,42 @@ export default function Page() {
         <section className="tiktok" aria-label="MILICUTE TikTok videos">
           <div className="tiktok-grid">
             <article className="tiktok-card">
-              <iframe
-                src="https://www.tiktok.com/embed/v2/7608502441935490324?background=transparent"
-                title="MILICUTE TikTok 7608502441935490324"
-                loading="lazy"
-                allow="encrypted-media; fullscreen"
-                scrolling="no"
-                allowFullScreen
-              ></iframe>
+              <div className="tiktok-frame">
+                <iframe
+                  src="https://www.tiktok.com/embed/v2/7608502441935490324?background=transparent"
+                  title="MILICUTE TikTok 7608502441935490324"
+                  loading="lazy"
+                  allow="encrypted-media; fullscreen"
+                  scrolling="no"
+                  allowFullScreen
+                ></iframe>
+              </div>
             </article>
 
             <article className="tiktok-card">
-              <iframe
-                src="https://www.tiktok.com/embed/v2/7614323871549869333?background=transparent"
-                title="MILICUTE TikTok 7614323871549869333"
-                loading="lazy"
-                allow="encrypted-media; fullscreen"
-                scrolling="no"
-                allowFullScreen
-              ></iframe>
+              <div className="tiktok-frame">
+                <iframe
+                  src="https://www.tiktok.com/embed/v2/7614323871549869333?background=transparent"
+                  title="MILICUTE TikTok 7614323871549869333"
+                  loading="lazy"
+                  allow="encrypted-media; fullscreen"
+                  scrolling="no"
+                  allowFullScreen
+                ></iframe>
+              </div>
             </article>
 
             <article className="tiktok-card">
-              <iframe
-                src="https://www.tiktok.com/embed/v2/7615864179416780052?background=transparent"
-                title="MILICUTE TikTok 7614323871549869333 duplicate"
-                loading="lazy"
-                allow="encrypted-media; fullscreen"
-                scrolling="no"
-                allowFullScreen
-              ></iframe>
+              <div className="tiktok-frame">
+                <iframe
+                  src="https://www.tiktok.com/embed/v2/7615864179416780052?background=transparent"
+                  title="MILICUTE TikTok 7615864179416780052"
+                  loading="lazy"
+                  allow="encrypted-media; fullscreen"
+                  scrolling="no"
+                  allowFullScreen
+                ></iframe>
+              </div>
             </article>
           </div>
         </section>
