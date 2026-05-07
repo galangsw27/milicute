@@ -20,7 +20,7 @@ body {
   color: var(--text);
   background:
     linear-gradient(rgba(4,4,6,0.78), rgba(4,4,6,0.82)),
-    url('/milicute-bg.png') center top / cover repeat-y,
+    url('/milicute-bg.webp') center top / cover repeat-y,
     var(--bg);
   background-attachment: fixed;
   overflow-x: hidden;
@@ -71,7 +71,7 @@ body {
   content: '';
   position: absolute;
   inset: 0;
-  background: url('/MILI.png') center/cover no-repeat;
+  background: url('/MILI.webp') center/cover no-repeat;
   opacity: 0.14;
   pointer-events: none;
 }
