@@ -119,6 +119,80 @@ h1 {
   font-size: 15px;
 }
 
+.language-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 18px;
+  padding: 8px 12px;
+  border: 1px solid rgba(255,255,255,0.14);
+  border-radius: 999px;
+  background: rgba(0,0,0,0.26);
+}
+
+.language-switch-label {
+  font-size: 11px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.language-switch-options {
+  display: inline-flex;
+  gap: 6px;
+}
+
+.language-switch-link {
+  min-width: 38px;
+  padding: 6px 10px;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  color: var(--text);
+  text-decoration: none;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background: rgba(255,255,255,0.05);
+}
+
+.language-switch-link.is-active {
+  border-color: var(--border-red);
+  background: rgba(224,16,32,0.14);
+  color: var(--red-soft);
+}
+
+.language-switch-link:hover {
+  border-color: rgba(255,255,255,0.18);
+}
+
+.language-switch-link:focus-visible {
+  outline: 2px solid var(--red-soft);
+  outline-offset: 2px;
+}
+
+.hero .language-switch {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 460px) {
+  .language-switch {
+    gap: 8px;
+    padding: 7px 10px;
+    margin-bottom: 14px;
+  }
+
+  .language-switch-label {
+    font-size: 10px;
+  }
+
+  .language-switch-link {
+    min-width: 34px;
+    padding: 5px 8px;
+  }
+}
+
+
 .actions {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
