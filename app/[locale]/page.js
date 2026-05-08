@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import GallerySection from '../../components/GallerySection'
 import LanguageSwitch from '../../components/LanguageSwitch'
@@ -118,7 +119,13 @@ export default async function LocalizedPage({ params }) {
           </div>
         </section>
 
-        <footer>{dict.footer}</footer>
+        <footer>
+          <div>{dict.footer}</div>
+          <div className="footer-legal-links">
+            <Link className="footer-legal-link" href={`/${locale}/terms`}>{dict.footerLinks.terms}</Link>
+            <Link className="footer-legal-link" href={`/${locale}/privacy`}>{dict.footerLinks.privacy}</Link>
+          </div>
+        </footer>
       </main>
     </>
   )
